@@ -99,7 +99,7 @@
     </body>
 </html> --}}
 
-<!DOCTYPE html>
+{{-- <!DOCTYPE html>
 <head>
   <title>Pusher Test</title>
   <script src="https://js.pusher.com/6.0/pusher.min.js"></script>
@@ -124,4 +124,4 @@
     Try publishing an event to channel <code>my-channel</code>
     with event name <code>my-event</code>.
   </p>
-</body>
+</body> --}}
