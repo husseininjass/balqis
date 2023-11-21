@@ -1,6 +1,6 @@
 @extends('frontend.layouts.master')
 
-@section('title','E-SHOP || About Us')
+@section('title','Balqis|| About Us')
 
 @section('main-content')
 
@@ -30,10 +30,9 @@
 							@php
 								$settings=DB::table('settings')->get();
 							@endphp
-							<h3>Welcome To <span>Eshop</span></h3>
-							<p>@foreach($settings as $data) {{$data->description}} @endforeach</p>
+							<h3>Welcome To <span>Balqis Technology</span></h3>
+							<p>balqis Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur, ab perferendis magni, reiciendis consequuntur amet minima autem soluta consectetur quasi numquam nesciunt dolorem iste qui accusantium eum voluptas cupiditate. Veniam?</p>
 							<div class="button">
-								<a href="{{route('blog')}}" class="btn">Our Blog</a>
 								<a href="{{route('contact')}}" class="btn primary">Contact Us</a>
 							</div>
 						</div>
@@ -53,7 +52,7 @@
 
 
 	<!-- Start Shop Services Area -->
-	<section class="shop-services section">
+	<section class="shop-services section mb-5">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-3 col-md-6 col-12">
@@ -97,5 +96,5 @@
 	</section>
 	<!-- End Shop Services Area -->
 
-	@include('frontend.layouts.newsletter')
+	{{-- @include('frontend.layouts.newsletter') --}}
 @endsection
