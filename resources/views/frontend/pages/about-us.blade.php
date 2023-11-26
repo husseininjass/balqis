@@ -31,7 +31,9 @@
 								$settings=DB::table('settings')->get();
 							@endphp
 							<h3>Welcome To <span>Balqis Technology</span></h3>
-							<p>balqis Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur, ab perferendis magni, reiciendis consequuntur amet minima autem soluta consectetur quasi numquam nesciunt dolorem iste qui accusantium eum voluptas cupiditate. Veniam?</p>
+							<p>Balqis Company for New Technology was established in 2008, a Jordanian based company, providing integrated high-quality security solutions and products in Jordan and the region, In addition to providing technical support at competitive prices.
+
+								Rapidly growing company that is specialized in providing professional surveillance solutions, premium sound system, Fire Alarm, intrusion Alarm Home Automation and all other security solutions</p>
 							<div class="button">
 								<a href="{{route('contact')}}" class="btn primary">Contact Us</a>
 							</div>
