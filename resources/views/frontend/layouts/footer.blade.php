@@ -19,7 +19,7 @@
 
 								Rapidly growing company that is specialized in providing professional surveillance solutions, premium sound system, Fire Alarm, intrusion Alarm Home Automation and all other security solutions
 							</p>
-							<p class="call">Got Question? Call us 24/7<span><a href="tel:123456789">@foreach($settings as $data) {{$data->phone}} @endforeach</a></span></p>
+							<p class="call">Got Question? Call us 24/7<span><a href="tel:+962798855444">+962798855444</a></span></p>
 						</div>
 						<!-- End Single Widget -->
 					</div>
@@ -58,9 +58,9 @@
 							<!-- Single Widget -->
 							<div class="contact">
 								<ul>
-									<li>@foreach($settings as $data) {{$data->address}} @endforeach</li>
+									<li>K. Hussein St., Aqaba , jordan</li>
 									<li>@foreach($settings as $data) {{$data->email}} @endforeach</li>
-									<li>@foreach($settings as $data) {{$data->phone}} @endforeach</li>
+									<li>+962798855444</li>
 								</ul>
 							</div>
 							<!-- End Single Widget -->

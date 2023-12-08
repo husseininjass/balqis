@@ -122,7 +122,7 @@ class AdminController extends Controller
         if(File::exists(public_path('storage'))){
             // removed the existing symbolic link
             File::delete(public_path('storage'));
-
+            
             //Regenerate the storage link folder
             try{
                 Artisan::call('storage:link');
@@ -142,6 +142,7 @@ class AdminController extends Controller
             }
             catch(\Exception $exception){
                 request()->session()->flash('error', $exception->getMessage());
+                
                 return redirect()->back();
             }
         }
