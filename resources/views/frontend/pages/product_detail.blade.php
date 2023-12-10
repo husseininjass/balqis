@@ -100,7 +100,7 @@
 											</div> --}}
 											<!--/ End Color -->
 											<!-- Size -->
-											@if($product_detail->size)
+											{{-- @if($product_detail->size)
 												<div class="size mt-4">
 													<h4>Size</h4>
 													<ul>
@@ -113,7 +113,7 @@
 														@endforeach
 													</ul>
 												</div>
-											@endif
+											@endif --}}
 											<!--/ End Size -->
 											<!-- Product Buy -->
 											<div class="product-buy">
@@ -148,7 +148,7 @@
 												@if($product_detail->sub_cat_info)
 												<p class="cat mt-1">Sub Category :<a href="{{route('product-sub-cat',[$product_detail->cat_info['slug'],$product_detail->sub_cat_info['slug']])}}">{{$product_detail->sub_cat_info['title']}}</a></p>
 												@endif
-												<p class="availability">Stock : @if($product_detail->stock>0)<span class="badge badge-success">{{$product_detail->stock}}</span>@else <span class="badge badge-danger">{{$product_detail->stock}}</span>  @endif</p>
+												{{-- <p class="availability">Stock : @if($product_detail->stock>0)<span class="badge badge-success">{{$product_detail->stock}}</span>@else <span class="badge badge-danger">{{$product_detail->stock}}</span>  @endif</p> --}}
 											</div>
 											<!--/ End Product Buy -->
 										</div>

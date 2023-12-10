@@ -155,7 +155,7 @@
 	<!--/ End Shopping Cart -->
 
 	<!-- Start Shop Services Area  -->
-	<section class="shop-services section">
+	<section class="shop-services section mb-5">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-3 col-md-6 col-12">
@@ -200,7 +200,6 @@
 	<!-- End Shop Newsletter -->
 
 	<!-- Start Shop Newsletter  -->
-	@include('frontend.layouts.newsletter')
 	<!-- End Shop Newsletter -->
 
 @endsection
